@@ -1,7 +1,11 @@
 import streamlit as st
 import math
 import pandas as pd
-
+with st.sidebar:
+    st.markdown("---")
+    st.write("**제작자:** [김창보]")
+    st.write("**소속:** [다온기술]")
+    st.caption("© 2026 All rights reserved.")
 # 페이지 설정
 st.set_page_config(page_title="수중 블록 인양 구조 검토", layout="wide", page_icon="🏗️")
 
